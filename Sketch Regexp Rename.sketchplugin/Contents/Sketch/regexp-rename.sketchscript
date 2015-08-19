@@ -1,8 +1,6 @@
-// Regexp Rename (shift control x)
+function regexpRenameMain( context ) {
 
-(function() {
-
-	var layers = selection;
+	var layers = context.selection;
 	var regexpRename = regexpRename || {};
 
 	regexpRename.createCheckbox = function ( label, value, flag ) {
@@ -55,10 +53,10 @@
 				layers[i].setName( layers[i].name().replace( find, replace ) );
 			};
 
-			doc.showMessage( 'Regexp Rename: ' + layers.count() + ' Layer(s) Selected / ' + matchTimes + ' Layer(s) Replaced' );
+			context.document.showMessage( 'Regexp Rename: ' + layers.count() + ' Layer(s) Selected / ' + matchTimes + ' Layer(s) Replaced' );
 
 		}
 
 	}
 
-})( doc );
+}
