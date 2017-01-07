@@ -10,7 +10,7 @@
         }
     ],
     "menu" : {
-        "isRoot" : false,
+        "isRoot" : true,
         "shortcut" : "",
         "items" : [
             "regexp-rename"
@@ -18,7 +18,7 @@
         "title" : "Regexp Rename"
     },
     "identifier": "net.creative-tweet.regexp-rename",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description" : "This plugin can rename layer by Regexp.",
     "name" : "Regexp Rename"
 }

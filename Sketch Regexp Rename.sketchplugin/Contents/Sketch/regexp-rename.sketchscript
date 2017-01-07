@@ -12,6 +12,7 @@ function regexpRenameMain( context ) {
 		checkbox.setTitle( label );
 		checkbox.setTag( value );
 		checkbox.setState( flag );
+		checkbox.setKeyEquivalent( value );
 
 		return checkbox;
 
@@ -35,6 +36,15 @@ function regexpRenameMain( context ) {
 
 		userInput.addButtonWithTitle('OK');
 		userInput.addButtonWithTitle('Cancel');
+
+		var tabIndex1 = userInput.viewAtIndex(1);
+		var tabIndex2 = userInput.viewAtIndex(2);
+		var tabIndex3 = userInput.viewAtIndex(3);
+		var tabIndex4 = userInput.viewAtIndex(5);
+		tabIndex1.setNextKeyView(tabIndex2);
+		tabIndex2.setNextKeyView(tabIndex3);
+		tabIndex3.setNextKeyView(tabIndex4);
+		userInput.alert().window().setInitialFirstResponder(tabIndex1);
 
 		var responseCode = userInput.runModal();
 
