@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Regexp Rename</title>
+    <link>https://raw.githubusercontent.com/littlebusters/Regexp-Rename/master/Sketch%20Regexp%20Rename.sketchplugin/Contents/Resources/update.xml</link>
+    <description>This plugin can rename layer by Regexp.</description>
+    <language>en</language>
+      <item>
+        <title>Version 1.1.1</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Supports Official Updating</li>
+            </ul>
+          ]]>
+        </description>
+        <pubDate>Mod, 12 Jun 2017 21:21:00 +0900</pubDate>
+        <enclosure url="https://github.com/littlebusters/Regexp-Rename/archive/master.zip" sparkle:version="1.1.1" length="337376" type="application/octet-stream" />
+      </item>
+  </channel>
+</rss>

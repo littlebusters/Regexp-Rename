@@ -1,6 +1,6 @@
 # Regexp Rename - Sketch Plugin
 
-This plugin can rename layer by Regexp in Sketch 3.
+This plugin can rename layer by Regexp in Sketch.
 
 ## Usage
 
