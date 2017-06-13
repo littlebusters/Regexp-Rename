@@ -6,7 +6,9 @@
             "identifier": "regexp-rename",
             "shortcut": "shift control x",
             "handler" : "regexpRenameMain",
-            "script": "regexp-rename.sketchscript"
+            "script": "regexp-rename.sketchscript",
+            "description": "Rename Layer by Regexp.",
+            "icon": "icon-regexp.png"
         }
     ],
     "menu" : {
@@ -18,7 +20,7 @@
         "title" : "Regexp Rename"
     },
     "identifier": "net.creative-tweet.regexp-rename",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description" : "This plugin can rename layer by Regexp.",
     "name" : "Regexp Rename",
     "appcast": "https://raw.githubusercontent.com/littlebusters/Regexp-Rename/master/Sketch%20Regexp%20Rename.sketchplugin/Contents/Resources/update.xml"

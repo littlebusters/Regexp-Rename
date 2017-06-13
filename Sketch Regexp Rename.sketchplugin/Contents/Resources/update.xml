@@ -6,16 +6,16 @@
     <description>This plugin can rename layer by Regexp.</description>
     <language>en</language>
       <item>
-        <title>Version 1.1.1</title>
+        <title>Version 1.2.0</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Supports Official Updating</li>
+              <li>Supports Sketch Runner</li>
             </ul>
           ]]>
         </description>
-        <pubDate>Mod, 12 Jun 2017 21:21:00 +0900</pubDate>
-        <enclosure url="https://github.com/littlebusters/Regexp-Rename/archive/master.zip" sparkle:version="1.1.1" length="337376" type="application/octet-stream" />
+        <pubDate>Tue, 13 Jun 2017 23:31:00 +0900</pubDate>
+        <enclosure url="https://github.com/littlebusters/Regexp-Rename/archive/master.zip" sparkle:version="1.2.0" length="337376" type="application/octet-stream" />
       </item>
   </channel>
 </rss>
